@@ -1,0 +1,31 @@
+.clients-list {
+    display: flex;
+    gap: 30px;
+  }
+  .clients-list__item {
+    width: calc((100% - 150px) / 6);
+  }
+  .clients-list__link {
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+    justify-content: center;
+    height: 92px;
+  
+    fill: $primary-icon-color;
+  
+    border: 1px solid $primary-border-icon;
+    border-radius: 4px;
+  
+    transition: fill 250ms $timing-function,
+      border-color 250ms $timing-function;
+
+    &:hover,
+    &:focus {
+    fill: $accent-color;
+    border-color: $accent-color;
+  }
+  }
+  .clients-list__logo {
+    margin: 16px 32px;
+  }

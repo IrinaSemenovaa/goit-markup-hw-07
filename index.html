@@ -5,17 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Головна</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body class="page-body">
     <header class="page-header">
@@ -28,10 +22,10 @@
           <!--Навігація на інші сторінки сайту-->
           <ul class="nav-list">
             <li class="nav-list__item">
-              <a class="nav-list__link" href="./index.html">Студія</a>
+              <a class="nav-list__link nav-list__link--current" href="./index.html">Студія</a>
             </li>
             <li class="nav-list__item">
-              <a class="nav-list__link nav-list__link--current" href="./portfolio.html">Портфоліо</a>
+              <a class="nav-list__link" href="./portfolio.html">Портфоліо</a>
             </li>
             <li class="nav-list__item">
               <a class="nav-list__link" href="#">Контакти</a>
@@ -128,7 +122,7 @@
           <ul class="benefits-items">
             <!-- Ілюстрації зайнятості -->
             <li class="benefits-items__item">
-              <img
+              <img class="benefits-items__image"
                 src="./images/img.jpg"
                 alt="Працюючий програміст за столом"
                 height="294"
@@ -138,7 +132,7 @@
               </div>
             </li>
             <li class="benefits-items__item">
-              <img
+              <img class="benefits-items__image"
                 src="./images/img1.jpg"
                 alt="Розробка інтерфейсу смартфона"
                 height="294"
@@ -148,7 +142,7 @@
               </div>
             </li>
             <li class="benefits-items__item">
-              <img
+              <img class="benefits-items__image"
                 src="./images/img2.jpg"
                 alt="Дизайнер з планшетом в руці"
                 height="294"

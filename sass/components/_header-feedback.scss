@@ -1,0 +1,32 @@
+.feedback-items {
+    display: flex;
+    margin-left: auto;
+  }
+  .feedback-items__item:first-child {
+    margin-right: 50px;
+  }
+  .feedback-items__link {
+    display: flex;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  
+    color: $primary-text-color;
+    fill: $primary-text-color;
+  
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+  
+    @include transition;
+
+    &:hover,
+    &:focus {
+    color: $accent-color;
+    fill: currentColor;
+  }
+  }
+  .feedback-items__icon {
+    margin-right: 10px;
+  }
