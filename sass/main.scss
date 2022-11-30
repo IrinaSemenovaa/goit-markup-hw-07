@@ -1,10 +1,11 @@
 @import './utils/variables';
 @import './utils/global';
 @import './utils/mixins';
+@import './utils/placeholder';
 @import './components/logo';
 @import './components/page-header';
-@import './components/header-nav';
-@import './components/header-feedback';
+@import './components/nav-list';
+@import './components/feedback-list';
 @import './components/hero-section';
 @import './components/features-section';
 @import './components/benefits-section';
@@ -14,4 +15,6 @@
 @import './components/address-footer';
 @import './components/socials-footer';
 @import './components/footer-form';
+@import './components/filter-list';
+@import './components/portfolio-list';
 @import './components/modal';
